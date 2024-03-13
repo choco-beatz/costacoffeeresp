@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+ 
+    
+    }
+
+body{
+    background: url(bgg.webp);
+    background-size: contain;
+    overflow-x: hidden;
+}
+header {
+    height: 80vh;
+    background: url(bg.webp);
+    background-size: cover;
+    padding:2em;
+ }
+
+ .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2'  d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+ .nav-item{
+    font-size: large;
+    font-weight: 700;
+ }
+
+ .custom-card{
+    margin: 4em;
+    
+ }
+ .custom-content{
+    padding: 4em;
+ }
+
+button{
+    padding: 1em;
+    background-color: rgb(109, 31, 55);
+    border-radius: 3em;
+    border: none;
+    color: white;
+    font-size:20px;
+    font-weight: 700;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-top: 1em;
+ }
+
+ .button-img{
+    width: 10px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+.card-1{
+    background-color: #b0ddf5;
+}
+.card-2{
+    background-color: #cfa8ca;
+}
+.card-3{
+    background-color: #ef7c69;
+}
+.card-4{
+    background-color: #efa021;
+}
+.custom-text{
+    color: rgb(109, 31, 55);
+    line-height: 1.5em;
+    margin-top: 1em;
+}
+
+.custom-title{
+    color: rgb(109, 31, 55);
+    font-weight: 700;
+}
+.custom-img-1{
+    background: url(coffee.webp);
+    background-size: cover;
+}
+.custom-img-2{
+    background: url(coffee3.webp);
+    background-size: cover;
+}
+.custom-img-3{
+    background: url(coffee4.webp);
+    background-size: cover;
+}
+.custom-img-4{
+    background: url(coffee5.webp);
+    background-size: cover;
+}
+@media screen and (max-width:776px) {
+    .custom-text{
+        font-size: large;
+    }
+    button{
+        font-size:15px;
+        padding-left: 1em;
+    padding-right: 1em;
+    }
+    .button-img{
+        width: 10px;
+        margin-left: 6px;
+        margin-bottom: 2px;
+    }
+}
+@media screen and (max-width:990px) {
+    .header{
+        height: 80vh;
+    background: url(bggg.webp);
+    background-size: cover;
+    padding:2em;
+    }
+}
+.section-six{
+    background-color: #b51144;
+    width: 100%;
+    padding: 4em;
+    margin-top: 5em;
+    display: flex;
+}
+.section-seven{
+    background-color: rgb(109, 31, 55);
+    width: 100%;
+    padding: 4em;
+    padding-top: 2em;
+
+}
+.footer-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+ul{
+    list-style: none;
+    color: white;
+    line-height: 2.25em;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+.headings{
+    font-weight: 700;
+    margin-bottom: 1.75em;
+    
+}
+
+p{
+    color: white;
+    line-height: 2.25em;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
